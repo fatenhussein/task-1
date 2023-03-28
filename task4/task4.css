@@ -1,0 +1,38 @@
+.main-title{
+    color: rgb(82, 82, 255);  
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+   margin-bottom: 20px;
+   color: rgb(82, 82, 255);
+}
+.label-input-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+label{
+    margin-bottom: 5px;
+}
+.label-input-container-gender
+{
+    display: flex;
+  flex-direction: column;
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+}
+.label-input-container-radio{
+    display: flex;
+}
