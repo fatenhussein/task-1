@@ -1,0 +1,39 @@
+
+
+.subtitle{
+    color: brown;
+    background-color: bisque;
+    text-transform: capitalize;
+    font-size: 1.6rem;
+    font-weight: 800;
+    width: 100%;
+}
+p{
+    font-size: 1.4rem;
+}
+table ,td , th{
+    border: 2px solid black;
+    margin-bottom: .5rem;
+    border-collapse: collapse;
+   padding: .3rem;
+}
+ img{
+
+    width: 500px;
+    height:500px;
+    
+    
+}
+
+.img{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   z-index: -1;
+   
+}
+.img-cont{
+    display: flex;
+    justify-content: space-between;
+}
