@@ -1,0 +1,24 @@
+.container{
+width: 600px;
+height: 100%;
+display: flex;
+flex-wrap: wrap;
+}
+p{
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#orange-text{color: orange;
+}
+#inline-p{
+display: inline;
+}
+#bold{
+    font-weight: bold;
+    
+}
+#bg{
+    background-image: url(https://img.freepik.com/free-photo/christmas-background-with-gold-bokeh-lights-design_1048-13477.jpg);
+}

@@ -1,0 +1,42 @@
+.container{
+    width: 600px;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    }
+
+    div{
+        margin-bottom: 20px;
+        padding: 1rem;
+    }
+    .commen-div{
+     border: 1px solid black;
+
+    }
+    .orang-bg{
+        background-color: orange;
+        padding: .1rem;
+        font-weight: bold;
+    }
+    #yallow-bg{
+        background-color: yellow;
+        padding: .1rem; 
+        font-weight: bold; 
+    }
+    #yallow-red{
+        background-color: yellow;
+        padding: .1rem; 
+        color: red; 
+        font-weight: bold; 
+    }
+    .div3{
+        border: 2px dotted red;   
+    }
+    .red{
+        color: red;
+    }
+    .red-border {
+        
+        color: red;
+        border: 2px dotted red;
+    }
