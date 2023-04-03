@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+.container {
+  width: 100%;
+  height: 100%;
+}
+.nav-wrapper {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(29, 151, 151);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 5px solid black;
+}
+.nav-list ul {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+}
+.nav-list ul a {
+  font-size: 1.6rem;
+  color: white;
+  cursor: pointer;
+  text-transform: capitalize;
+}
+.nav-wrapper .primary-btn {
+  font-size: 1.5rem;
+  background-color: white;
+  width: 170px;
+  padding: 0.3rem;
+  text-align: center;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+  cursor: pointer;
+}
+.subList-con {
+  display: none;
+  position: absolute;
+  flex-direction: row;
+  background-color: rgb(29, 151, 151);
+  height: 160px;
+  width: 190px;
+}
+.subList-con ul {
+  gap: 1rem;
+  padding: 1rem;
+}
+.subList li a {
+  display: inline;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  color: rgb(255, 253, 253);
+}
+
+.subList {
+  display: flex;
+  flex-direction: column;
+}
+.Services-subList:hover .gold {
+  color: rgb(250, 185, 100);
+}
+.Services-subList:hover .subList-con {
+  display: flex;
+}

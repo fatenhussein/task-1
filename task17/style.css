@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    width: 900px;
+    height: 450px;
+    border: 1px black solid;
+    display: flex;
+    gap: 4rem;
+    margin: 3rem;
+    padding: 3rem;
+    box-shadow: 5px 5px black;
+}
+.img-con{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.content-con{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;  
+}
+.main-title{
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}

@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-container {
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  padding: 0.5rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(8, 1fr);
+  gap: 5px;
+}
+
+.text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.item-1 {
+  background-color: rgb(223, 147, 124);
+  grid-column: 1/-1;
+  grid-row: 1/1;
+  
+}
+.item-2 {
+  background-color: rgb(253, 236, 126);
+  grid-column: 1/2;
+  grid-row: 2/8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-3 {
+  background-color: rgb(178, 237, 110);
+  grid-column: 2/-1;
+  grid-row: 2/8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-4 {
+    background-color: rgb(102, 198, 181);
+    grid-column: 1/4;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .item-5 {
+    background-color: rgb(115, 190, 231);
+    grid-column: 4/-1;
+    grid-row: 8/-1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
